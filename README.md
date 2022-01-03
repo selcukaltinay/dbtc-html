@@ -9,5 +9,9 @@ This repository includes html lecture notes
 - 01.01.2022
 
 # Day 2
-> I'm here https://www.w3schools.com/html/html_quotation_elements.asp
+> I was here https://www.w3schools.com/html/html_quotation_elements.asp
 - 02.01.2022
+
+# Day 3
+> I'm here https://www.w3schools.com/html/html_links.asp
+- 03.01.2022
