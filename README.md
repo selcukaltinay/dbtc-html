@@ -13,5 +13,9 @@ This repository includes html lecture notes
 - 02.01.2022
 
 # Day 3
-> I'm here https://www.w3schools.com/html/html_links.asp
+> I was here https://www.w3schools.com/html/html_links.asp
 - 03.01.2022
+
+# Day 4
+> I'm here https://www.w3schools.com/html/html_table_borders.asp
+- 04.01.2022
