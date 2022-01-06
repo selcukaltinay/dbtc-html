@@ -21,5 +21,9 @@ This repository includes html lecture notes
 - 04.01.2022
 
 # Day 5
-> I'm here https://www.w3schools.com/html/html_classes.asp
+> I was here https://www.w3schools.com/html/html_classes.asp
 - 05.01.2022
+
+# Day 
+> I'm here https://www.w3schools.com/html/html_scripts.asp
+- 06.01.2022
