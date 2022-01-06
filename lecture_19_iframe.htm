@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>
+    .butonlar{
+        align-items: center;
+    }
+</style>
+<script>
+    function borderTurnOn()
+    {
+        var x = document.getElementById("borders");
+        x.style.border = "20px solid red";
+        
+    }
+    function borderTurnOff()
+    {
+        var y = document.getElementById("borders");
+        y.style.border = "none";
+    }
+</script>
+</head>
+
+<body>
+    <div class id="butonlar">
+    <button type="button" onclick="borderTurnOn">Border Turn On</button>
+    <button type="button" onclick="borderTurnOff">Border Turn Off</button>
+    </div>
+    <iframe id="borders" style="align-items: center;" src="http://www.muhendisinnotlari.com/" height="600" width="400" title="Iframe Example"></iframe>
+</body>
+
+</html>
