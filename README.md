@@ -29,5 +29,9 @@ This repository includes html lecture notes
 - 06.01.2022
 
 # Day 7
-> I'm here https://www.w3schools.com/html/html_layout.asp
+> I was here https://www.w3schools.com/html/html_layout.asp
 - 07.01.2022
+
+# Day 8
+> I'm here https://www.w3schools.com/html/html5_semantic_elements.asp
+- 08.1.2022
