@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+<table class="ws-table-all notranslate"> 
+    <tbody><tr>
+      <th style="width:20%">Value</th>
+      <th>Description</th>
+    </tr>  
+    <tr>
+      <td>_blank</td>
+      <td>The response is displayed in a new window or tab</td>
+    </tr>
+    <tr>
+      <td>_self</td>
+      <td>The response is displayed in the current window</td>
+    </tr>
+    <tr>
+      <td>_parent</td>
+      <td>The response is displayed in the parent frame</td>
+    </tr>
+    <tr>
+      <td>_top</td>
+      <td>The response is displayed in the full body of the window</td>
+    </tr>
+    <tr>
+      <td><i>framename</i></td>
+      <td>The response is displayed in a named iframe</td>
+    </tr>
+    </tbody></table>
+    <p><b>Notes on GET:</b> </p>
+    <ul>
+        <li>Appends the form data to the URL, in name/value pairs</li>
+        <li>NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)</li>
+        <li>The length of a URL is limited (2048 characters)</li>
+        <li>Useful for form submissions where a user wants to bookmark the result</li>
+        <li>GET is good for non-secure data, like query strings in Google</li>
+      </ul>
+      <p><b>Notes on POST:</b> </p>
+      <ul>
+        <li>Appends the form data inside the body of the HTTP request (the submitted 
+        form data is not shown in the URL)</li>
+        <li>POST has no size limitations, and can be used to send large amounts of data.</li>
+        <li>Form submissions with POST cannot be bookmarked</li>
+      </ul>
+
+      
+<h1>The form autocomplete attribute</h1>
+
+<p>Fill in and submit the form, then reload the page, start to fill in the form again - and see how autocomplete works.</p>
+
+<p>Then, try to set autocomplete to "off".</p>
+
+<form action="/action_page.php" autocomplete="on">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email"><br><br>
+  <input type="submit">
+</form>
+
+
+</body>
+</html>
+

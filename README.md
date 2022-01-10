@@ -36,6 +36,10 @@ This repository includes html lecture notes
 > I was here https://www.w3schools.com/html/html5_semantic_elements.asp
 - 08.1.2022
 
-# Day 9 https://www.w3schools.com/html/html_forms_attributes.asp
-> I'm here 
+# Day 9 
+> I was here https://www.w3schools.com/html/html_forms_attributes.asp
 - 09.01.2022 
+
+# Day 10
+> I'm here https://www.w3schools.com/html/html5_canvas.asp
+- 10.01.2022
