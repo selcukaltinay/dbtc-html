@@ -45,5 +45,9 @@ This repository includes html lecture notes
 - 10.01.2022
 
 # Day 11
-> I'm here https://www.w3schools.com/html/html5_audio.asp
-> 11.01.2022
+> I was here https://www.w3schools.com/html/html5_audio.asp
+- 11.01.2022
+
+# Day 12
+> I'm here https://www.w3schools.com/html/html5_serversentevents.asp
+- 12.01.2022 
