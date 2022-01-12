@@ -41,5 +41,9 @@ This repository includes html lecture notes
 - 09.01.2022 
 
 # Day 10
-> I'm here https://www.w3schools.com/html/html5_canvas.asp
+> I was here https://www.w3schools.com/html/html5_canvas.asp
 - 10.01.2022
+
+# Day 11
+> I'm here https://www.w3schools.com/html/html5_audio.asp
+> 11.01.2022
