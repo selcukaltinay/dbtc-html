@@ -3,6 +3,10 @@ Server-Sent Events - One Way Messaging
 A server-sent event is when a web page automatically gets updates from a server.
 
 This was also possible before, but the web page would have to ask if any updates were available. With server-sent events, the updates come automatically.
+
+Examples: Facebook/Twitter updates, stock price updates, news feeds, sport results, etc.
+
+
 -->
 
 <!DOCTYPE html>
@@ -24,6 +28,64 @@ if(typeof(EventSource) !== "undefined") {
 </script>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4HlNv1qpZFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!--
+Example explained:
+
+Create a new EventSource object, and specify the URL of the page sending the updates (in this example "demo_sse.php")
+Each time an update is received, the onmessage event occurs
+When an onmessage event occurs, put the received data into the element with id="result"
+-->
+<!--
+Check Server-Sent Events Support
+In the tryit example above there were some extra lines of code to check browser support for server-sent events:
+
+if(typeof(EventSource) !== "undefined") {
+  // Yes! Server-sent events support!
+  // Some code.....
+} else {
+  // Sorry! No server-sent events support..
+}
+-->
+<!--
+  Code in PHP (demo_sse.php):
+
+<?php
+header('Content-Type: text/event-stream');
+header('Cache-Control: no-cache');
+
+$time = date('r');
+echo "data: The server time is: {$time}\n\n";
+flush();
+?>
+Code in ASP (VB) (demo_sse.asp):
+
+<%
+Response.ContentType = "text/event-stream"
+Response.Expires = -1
+Response.Write("data: The server time is: " & now())
+Response.Flush()
+%>
+-->
+<table class="ws-table-all notranslate">
+  <tbody><tr>
+  <th style="width:20%">Events</th>
+  <th>Description</th>
+  </tr>
+    <tr>
+  <td>onopen</td>
+  <td>When a connection to the server is opened</td>
+    </tr>
+    <tr>
+  <td>onmessage</td>
+  <td>When a message is received</td>
+    </tr>
+    <tr>
+  <td>onerror</td>
+  <td>When an error occurs</td>
+    </tr>
+   </tbody></table>
+   
 
 </body>
 </html>

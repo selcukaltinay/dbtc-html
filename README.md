@@ -49,5 +49,11 @@ This repository includes html lecture notes
 - 11.01.2022
 
 # Day 12
-> I'm here https://www.w3schools.com/html/html5_serversentevents.asp
+> I was here https://www.w3schools.com/html/html5_serversentevents.asp
 - 12.01.2022 
+
+# Day 13 ☆
+> Completed.
+- 13.01.2022
+
+## Examples will be added.
